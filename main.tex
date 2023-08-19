@@ -172,20 +172,14 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Adobe Inc.}{Austin, TX}
-      {Software Engineer Intern}{June 2023 \textbf{--} Sep 2023}
-        \resumeItemListStart
-            \resumeItem{Developed effective prompts for diverse AI tasks and maintained a high standard of prompt quality and consistency across different competencies, adhering to established guidelines and best practices.}
-            \resumeItem{Reviewed, validated, and scored the AI assistant's responses to ensure they align with intended AI assistant behaviors and the AI assistant produces accurate and contextually appropriate responses to given prompts.}
-            \resumeItem{Engaged in collaborative meetings with cross-functional teams and project coordinators, actively seeking guidance, addressing queries, and collectively brainstorming strategies to generate higher quality prompts.}
-            
-        \resumeItemListEnd
+      {Machine Learning Engineer Intern}{June 2023 \textbf{--} Sep 2023} \\ \vspace{3pt}
     
     \resumeSubheading
       {R-Dex Systems Inc.}{Atlanta, GA}
       {Machine Learning Engineer II}{June 2022 \textbf{--} June 2023}
         \resumeItemListStart
             \resumeItem{Built a background registration-based adaptive noise filtering system with robust principal component analysis via augmented Lagrange multipliers and Lucas-Kanade optical flow algorithm for image analysis}
-            \resumeItem{Built a complex-valued module for generalized deep neural network architecture design}
+            \resumeItem{Engineered a module for designing generalized deep neural network architectures for complex numbers }
             \resumeItem{Implemented a transfer learning framework ‘learning without forgetting’ to increase model generalizability and training
 flexibility}
             \resumeItem{Implemented neural network architectures with multi-frequency decomposition based on the Fast Fourier transform for temporal series classification of signal-based data}
@@ -294,6 +288,26 @@ tools used: Independent Component Analysis (ICA), Power and Fourier Analysis, an
 
   \resumeSubHeadingListEnd
 
+%----------- Publications -----------
+
+\section{Publications}
+  \vspace{2pt}
+  \resumeSubHeadingListStart
+    \small{\item{
+        \textit{E. Eckels-Davidson, T. Davidson, A. Hübert, \textbf{ J. Muneton Gallego}, R. Bock,} Distributional Distances: Using Statistical Tools to Assess and Inform Synthetic Data Generation, SPIE (2023) (In review)
+        \\ \vspace{3pt}
+        
+        \textit{\textbf{J. Muneton Gallego}, J. Steingrimsson} An Evaluation of Machine Learning Methods to Predict Survival of Patients Diagnosed with Breast Cancer, Undergraduate Honors Thesis at the School of Public Health at Brown University (2021) \\ \vspace{3pt} 
+
+         \textit{\textbf{J. Muneton Gallego}, J. Windham, J. Zeldin}, Time Series Classification with HA-TCN for stress levels, Computer Science Department at Brown University (2020)  \\ \vspace{3pt} 
+
+        \textit{\textbf{J. Muneton Gallego}, D. Dvorak, A. Fenton}, Behind an Artist's Brain: an EEG-based Approach to Assessing Distinct Styles of Painting. Undergraduate Research Experience at NYU (NSF) (2019)  \\ \vspace{3pt} 
+
+       
+
+  \resumeSubHeadingListEnd
+
+
 
 
 %----------- PROJECTS -----------
@@ -303,25 +317,29 @@ tools used: Independent Component Analysis (ICA), Power and Fourier Analysis, an
     \resumeSubHeadingListStart
       
       \resumeProjectHeading
-        {\textbf{Filters and Fractals} $|$ \emph{\href{https://github.com/arasgungore/filters-and-fractals}{\color{blue}GitHub}}}{}
+        {\textbf{Machine Learning System for Claim Validity} $|$ \emph{\href{https://github.com/jmunetong/nlp-ml-health}{\color{blue}GitHub}}}{}
           \resumeItemListStart
-            \resumeItem{A C project which implements a variety of image processing operations that manipulate the size, filter, brightness, contrast, saturation, and other properties of PPM images from scratch.}
-            \resumeItem{Added recursive fractal generation functions to model popular fractals including Mandelbrot set, Julia set, Koch curve, Barnsley fern, and Sierpinski triangle in PPM format.}
+            \resumeItem{This project is a python-based module/package that provides a machine learning pipeline for training and querying claims from the pub-health dataset, which contains valid, false, mixed, and unknown claims. In this pipeline, we implemented 4 customized neural networks for natural language processing, all of which use an embedding layer }
           \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{HA-TCN for Stress Levels} $|$ \emph{\href{https://github.com/jmunetong/ha-tcn}{\color{blue}GitHub}}}{}
+          \resumeItemListStart
+            \resumeItem{This project contains a Hierarchical Attentional-based Temporal Convolutional Neural Network (HA-TCN) capable of classifying levels of stress based on heart rate monitoring at different time-steps }
+          \resumeItemListEnd
+      % \resumeProjectHeading
+      %   {\textbf{Chess Bot} $|$ \emph{\href{https://github.com/arasgungore/chess-bot}{\color{blue}GitHub}}}{}
+      %     \resumeItemListStart
+      %       \resumeItem{A C++ project in which you can play chess against an AI with a specified decision tree depth that uses alpha-beta pruning algorithm to predict the optimal move.}
+      %       \resumeItem{Aside from basic moves, this mini chess engine also implements chess rules such as castling, en passant, fifty-move rule, threefold repetition, and pawn promotion.}
+      %     \resumeItemListEnd
       
-      \resumeProjectHeading
-        {\textbf{Chess Bot} $|$ \emph{\href{https://github.com/arasgungore/chess-bot}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{A C++ project in which you can play chess against an AI with a specified decision tree depth that uses alpha-beta pruning algorithm to predict the optimal move.}
-            \resumeItem{Aside from basic moves, this mini chess engine also implements chess rules such as castling, en passant, fifty-move rule, threefold repetition, and pawn promotion.}
-          \resumeItemListEnd
-      
-      \resumeProjectHeading
-        {\textbf{CMPE 250 Projects} $|$ \emph{\href{https://github.com/arasgungore/CMPE250-projects}{\color{blue}GitHub}}}{}
-          \resumeItemListStart
-            \resumeItem{Five Java projects assigned for the Data Structures and Algorithms (CMPE 250) course in the Fall 2021-22 semester.}
-            \resumeItem{These projects apply DS\&A concepts such as discrete-event simulation (DES) using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree (MST), Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming to real-world problems.}
-          \resumeItemListEnd
+      % \resumeProjectHeading
+      %   {\textbf{CMPE 250 Projects} $|$ \emph{\href{https://github.com/arasgungore/CMPE250-projects}{\color{blue}GitHub}}}{}
+      %     \resumeItemListStart
+      %       \resumeItem{Five Java projects assigned for the Data Structures and Algorithms (CMPE 250) course in the Fall 2021-22 semester.}
+      %       \resumeItem{These projects apply DS\&A concepts such as discrete-event simulation (DES) using priority queues, Dijkstra's shortest path algorithm, Prim's algorithm to find the minimum spanning tree (MST), Dinic's algorithm for maximum flow problems, and weighted job scheduling with dynamic programming to real-world problems.}
+      %     \resumeItemListEnd
       
     \resumeSubHeadingListEnd
 
@@ -335,7 +353,7 @@ tools used: Independent Component Analysis (ICA), Power and Fourier Analysis, an
     \small{\item{
         \textbf{Programming:}{ Python, C++, JavaScript, MATLAB, R, SQL, MySQL} \\ \vspace{3pt}
         
-        \textbf{Technologies:}{ Git, Docker, OpenCV, Pytorch, Tensorflow, Numba, scikit-learn, Linux ISE, Spark, CUDA} \\ \vspace{3pt}
+        \textbf{Technologies:}{ Git, Docker, OpenCV, Pytorch, Tensorflow, Numba, scikit-learn, Linux ISE, Spark, CUDA, LaTeX} \\ \vspace{3pt}
 
         \textbf{Mathematical Skills:}{ Real Analysis, Complex Analysis, Numerical Linear Algebra, Probability, Mathematical Statistics, Manifolds}
         
